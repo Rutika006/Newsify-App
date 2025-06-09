@@ -1,0 +1,97 @@
+{
+    "status": "ok",
+    "totalResults": 12,
+    "articles": [
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal has been banned from all representative cricket for three years by the Pakistan Cricket Board (PCB) after pleading guilty to failing to report corrupt approaches."
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "ESPN Cric Info revisited the full 1992 World Cup final, analyzing how white-ball cricket has evolved over the years, particularly in aspects like wides, lbw calls, and swing."
+        },
+        {
+            "source": {
+                "id": "economic-times",
+                "name": "Economic Times"
+            },
+            "author": null,
+            "title": "Mumbai Indians vs Delhi Capitals - IPL 2025 Showdown",
+            "description": "Mumbai Indians and Delhi Capitals battle for the final playoff spot in IPL 2025.",
+            "url": "[1](https://economictimes.indiatimes.com/news/sports/mi-vs-dc-live-score-mumbai-indians-vs-delhi-capitals-ipl-2025-t20-cricket-match-live-score-updates-today-21-may-2025/liveblog/121318325.cms)",
+            "urlToImage": null,
+            "publishedAt": "2025-05-21T15:04:00Z",
+            "content": "Mumbai Indians currently hold 14 points, while Delhi Capitals have 13, making this match crucial for both teams."
+        },
+        {
+            "source": {
+                "id": "zee-news",
+                "name": "Zee News"
+            },
+            "author": null,
+            "title": "Delhi Capitals Win Toss, Opt to Bowl First",
+            "description": "DC won the toss and chose to field first in IPL 2025 match against MI.",
+            "url": "[2](https://zeenews.india.com/cricket/live-updates/mi-vs-dc-live-cricket-score-and-updates-ipl-2025-63rd-t20-match-mumbai-indians-vs-delhi-capitals-wankhede-stadium-mumbai-full-scorecard-hardik-pandya-vs-axar-patel-2903741.html)",
+            "urlToImage": null,
+            "publishedAt": "2025-05-21T13:48:00Z",
+            "content": "Axar Patel is missing out due to sickness, with Faf du Plessis leading the team instead."
+        },
+        {
+            "source": {
+                "id": "first-post",
+                "name": "First Post"
+            },
+            "author": null,
+            "title": "Rain Threat Looms Over MI vs DC Match",
+            "description": "Heavy rain and thunderstorms are predicted in Mumbai, potentially affecting the IPL match.",
+            "url": "[3](https://www.firstpost.com/firstcricket/mumbai-weather-live-updates-mi-vs-dc-ipl-2025-wankhede-stadium-rain-forecast-liveblog-13890329.html)",
+            "urlToImage": null,
+            "publishedAt": "2025-05-21T14:49:00Z",
+            "content": "A Yellow Alert has been issued, with an 80% chance of rain."
+        },
+        {
+            "source": {
+                "id": "dna-india",
+                "name": "DNA India"
+            },
+            "author": null,
+            "title": "Ravi Shastri on Virat Kohli’s Future",
+            "description": "Former Indian coach Ravi Shastri believes Virat Kohli will step away from cricket entirely after retirement.",
+            "url": "[4](https://www.dnaindia.com/cricket/report-once-he-is-done-playing-ravi-shastri-gives-his-verdict-on-if-virat-kohli-will-ever-coach-indian-cricket-team-3153381)",
+            "urlToImage": null,
+            "publishedAt": "2025-05-21T14:53:00Z",
+            "content": "Shastri states that Kohli will not take up coaching or broadcasting roles post-retirement."
+        },
+        {
+            "source": {
+                "id": "business-standard",
+                "name": "Business Standard"
+            },
+            "author": null,
+            "title": "Where to Watch MI vs DC Live",
+            "description": "The IPL 2025 match between MI and DC will be telecast live on Star Sports Network and streamed on JioHotstar.",
+            "url": "[5](https://www.business-standard.com/cricket/ipl/ipl-2025-mi-vs-dc-live-streaming-where-to-watch-cricket-match-today-125052000624_1.html)",
+            "urlToImage": null,
+            "publishedAt": "2025-05-21T12:49:00Z",
+            "content": "Fans can watch the match live on Star Sports Network and JioHotstar."
+        }
+    ]
+}
