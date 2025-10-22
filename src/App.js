@@ -2,7 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import News from './components/News';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import LoadingBar from 'react-top-loading-bar';
 
 export default class App extends Component {
@@ -24,7 +24,8 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter basename="/Newsify-App">
+      <HashRouter
+ basename="/Newsify-App">
         <NavBar darkMode={this.state.darkMode} toggleDarkMode={this.toggleDarkMode} />
         <LoadingBar
           height={3}
@@ -41,7 +42,7 @@ export default class App extends Component {
           <Route path="/sports" element={<News setProgress={this.setProgress} apiKey={this.apiKey} key="sports" pageSize={this.pageSize} country="us" category="sports" darkMode={this.state.darkMode} />} />
           <Route path="/technology" element={<News setProgress={this.setProgress} apiKey={this.apiKey} key="technology" pageSize={this.pageSize} country="us" category="technology" darkMode={this.state.darkMode} />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
