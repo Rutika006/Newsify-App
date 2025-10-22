@@ -9,6 +9,7 @@ export default class App extends Component {
   pageSize = 6;
   apiKey = "79f85e0bfa4a44d19edc96402c747913"; // API key hardcoded for GitHub Pages
 
+
   state = {
     progress: 0,
     darkMode: false
