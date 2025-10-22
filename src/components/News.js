@@ -17,11 +17,13 @@ const News = (props) => {
     props.setProgress(10);
     setLoading(true);
     try {
-      const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`;
+      // Call the Netlify function
+      const url = `/.netlify/functions/fetchNews?category=${props.category}&page=${page}&pageSize=${props.pageSize}`;
       let data = await fetch(url);
       props.setProgress(30);
       let parsedData = await data.json();
       props.setProgress(70);
+
       setArticles(parsedData.articles || []);
       setTotalResults(parsedData.totalResults || 0);
       setLoading(false);
@@ -37,7 +39,7 @@ const News = (props) => {
   useEffect(() => {
     updateNews();
     // eslint-disable-next-line
-  }, [page]);
+  }, [page, props.category]); // update when page or category changes
 
   const handlePrevClick = () => {
     setPage(page - 1);
@@ -57,8 +59,8 @@ const News = (props) => {
         {!loading && articles?.map((ele) => (
           <div className="col-md-4" key={ele.url}>
             <NewsItem
-              title={ele.title ? ele.title : ""}
-              description={ele.description ? ele.description : ""}
+              title={ele.title || ""}
+              description={ele.description || ""}
               imageUrl={ele.urlToImage}
               newsUrl={ele.url}
               date={ele.publishedAt}
@@ -88,7 +90,6 @@ News.propTypes = {
   country: PropTypes.string,
   pageSize: PropTypes.number,
   category: PropTypes.string,
-  apiKey: PropTypes.string.isRequired,
   setProgress: PropTypes.func.isRequired,
   darkMode: PropTypes.bool
 };
