@@ -7,8 +7,8 @@ import LoadingBar from 'react-top-loading-bar';
 
 export default class App extends Component {
   pageSize = 6;
-  apiKey = process.env.REACT_APP_NEWS_API;
-  
+  apiKey = process.env.REACT_APP_NEWS_API; // or hardcode your API key here for GitHub Pages
+
   state = {
     progress: 0,
     darkMode: false
@@ -24,7 +24,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/Newsify-App">
         <NavBar darkMode={this.state.darkMode} toggleDarkMode={this.toggleDarkMode} />
         <LoadingBar
           height={3}
